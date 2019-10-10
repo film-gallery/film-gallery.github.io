@@ -2,21 +2,21 @@
 # Site
 
 title: Aperture Template
-url: "https://cosmic-hippopotamus.cloudvent.net"
+url: "https://film-gallery.github.io/index.html"
 baseurl:
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Photography portfolio template for Jekyll.
+description: Film camera minor gallery
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Aperture Template
+  name: Film camera minor gallery
   links:
-    - https://github.com/CloudCannon/aperture-jekyll-template
+    - https://gall.dcinside.com/mgallery/board/lists?id=filmcamera
 
 # -----
 # Build
