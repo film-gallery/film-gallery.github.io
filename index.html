@@ -73,51 +73,11 @@ photos:
     caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
   - image: /uploads/1.jpg
     caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
-  - image: /uploads/1.jpg
-    caption: 선유도 이야기 - Kodak Colorplus 200, Leica Elmar 50mm f/2.8, Leica M7
 ---
 
 <ul class="gallery">
 	{% for photo in page.photos %}
-		<li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "800x800>" }}')"><a title="{{ photo.caption }}" href="{{ site.baseurl }}{{ photo.image }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}"></a></li>
+		<li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "800x800" }}')"><a title="{{ photo.caption }}" href="{{ site.baseurl }}{{ photo.image }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}"></a></li>
 	{% endfor %}
 	<li class="spacer"></li>
 	<li class="spacer"></li>
