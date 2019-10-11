@@ -60,7 +60,7 @@ photos:
     script.src = "{{ site.baseurl }}/js/lightbox.js";
     document.body.appendChild(script);
     var click_disable = document.createElement("script");
-    script.clicksrc = "{{ site.baseurl }}/js/click.js";
+    click_disable.src = "{{ site.baseurl }}/js/click.js";
     document.body.appendChild(click_disable);
   }
 </script>
